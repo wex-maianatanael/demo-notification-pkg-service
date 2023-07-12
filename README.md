@@ -25,3 +25,7 @@ This demo shows how to use the notification pkg to send emails through the notif
 ### API Response
 
 <img width="715" alt="image" src="https://github.com/wex-maianatanael/demo-notification-pkg-service/assets/97063562/b701d886-19c3-4ccb-bceb-ef67e78611ec">
+
+### Email received
+
+<img width="236" alt="image" src="https://github.com/wex-maianatanael/demo-notification-pkg-service/assets/97063562/85039e3a-f89c-4ac0-a8b0-fae3213c572a">
