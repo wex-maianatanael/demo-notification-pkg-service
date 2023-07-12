@@ -1,7 +1,7 @@
 ﻿using Demo.EmailSender.ViewModels;
 using WEX.Edge.Core.Wrappers;
 
-namespace Demo.EmailSender
+namespace Demo.EmailSender.Services.Contracts
 {
     public interface IEmailService
     {

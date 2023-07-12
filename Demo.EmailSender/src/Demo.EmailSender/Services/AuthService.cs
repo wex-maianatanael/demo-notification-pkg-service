@@ -1,8 +1,9 @@
 ﻿using System.Net;
+using Demo.EmailSender.Services.Contracts;
 using WEX.Edge.Core.Interfaces;
 using WEX.Edge.Core.Models;
 
-namespace Demo.EmailSender
+namespace Demo.EmailSender.Services
 {
     public class AuthService : IAuthervice
     {

@@ -1,4 +1,5 @@
-using Demo.EmailSender;
+using Demo.EmailSender.Services;
+using Demo.EmailSender.Services.Contracts;
 using WEX.Edge.Core.Clients;
 using WEX.Edge.Core.Interfaces;
 using WEX.Edge.Notification.Clients;

@@ -1,4 +1,5 @@
-﻿using Demo.EmailSender.ViewModels;
+﻿using Demo.EmailSender.Services.Contracts;
+using Demo.EmailSender.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 

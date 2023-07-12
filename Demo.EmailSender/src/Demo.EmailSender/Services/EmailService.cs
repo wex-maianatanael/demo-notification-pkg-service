@@ -1,10 +1,11 @@
-﻿using Demo.EmailSender.ViewModels;
+﻿using Demo.EmailSender.Services.Contracts;
+using Demo.EmailSender.ViewModels;
 using WEX.Edge.Core.DTOs.AuthWexEdge;
 using WEX.Edge.Core.Wrappers;
 using WEX.Edge.Notification.Clients.Interfaces;
 using WEX.Edge.Notification.DTOs.Email;
 
-namespace Demo.EmailSender
+namespace Demo.EmailSender.Services
 {
     public class EmailService : IEmailService
     {
