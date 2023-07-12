@@ -20,7 +20,7 @@ This demo shows how to use the notification pkg to send emails through the notif
 }
 ```
 
-ℹ️ You can use the above json as payload or just pass an empty json to send the request. If you send and empty json, the model class you use the default values for each property.
+ℹ️ You can use the above json as payload or just pass an empty json to send the request. If you send an empty json, the model class will use the default values for each property.
 
 ### API Response
 
