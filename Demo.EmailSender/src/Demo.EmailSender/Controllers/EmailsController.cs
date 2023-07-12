@@ -20,7 +20,7 @@ namespace Demo.EmailSender.Controllers
         }
 
         [HttpPost("send")]
-        public async Task<IActionResult> PostAsync(EmailRequestViewModel model)
+        public async Task<IActionResult> PostAsync(EmailRequestViewModel? model)
         {
             try
             {
