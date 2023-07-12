@@ -20,7 +20,9 @@ This demo shows how to use the notification pkg to send emails through the notif
 }
 ```
 
-ℹ️ You can use the above json as payload or just pass an empty json to send the request. If you send an empty json, the model class will use the default values for each property.
+ℹ️ You can use the above json as payload or just pass an empty json `{}` to send the request. If you send an empty json, the model class will use the default values for each property.
+
+⚠️ The `"from":` attribute must have the `"no-reply@wexedge.com"` value assigned, otherwise it's not gonna work.
 
 ### API Response
 
