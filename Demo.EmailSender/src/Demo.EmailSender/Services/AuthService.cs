@@ -31,7 +31,7 @@ namespace Demo.EmailSender.Services
                 var authResponse = _authServiceClient.Login(new LoginRequest
                 {
                     Username = "notificationapi",
-                    Password = "57PlwdMY7rnVAZGYHGWReTqVWVFRJsvlkSC6lOmQd"
+                    Password = "****"
                 }).Result;
 
                 if (authResponse.Login != null && authResponse.Login.Success)
